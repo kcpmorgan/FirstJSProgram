@@ -1,8 +1,19 @@
-let name="Kim Morgan";
-let email="pixislate@hotmail.com";
-let password="zest";
-let age="35";
+let userName="KimMorgan";
+let userEmail="pixislate@hotmail.com";
+let password="test";
+let age="99";
 let country="USA";
-let salary="$6000";
+let monthlySalary=6000;
+let yearlySalary=monthlySalary*12;
+const taxes=0.08;
 
-document.write()
+userName="Ben";
+
+
+document.write(`
+<div class="student">
+<p><b>Name:</b> ${userName}</p>
+<p><b>Email:</b> ${userEmail}</p>
+<p><b>Salary:</b>${monthlySalary*12}</p>
+</div>
+`);
